@@ -1,7 +1,7 @@
 <script>
 import { jsPDF } from "jspdf";
 import { ref, onMounted } from '@vue/runtime-core';
-import '../msjh-normal' // 引入線上轉換後的字型
+// import '../msjh-normal' // 引入線上轉換後的字型
 export default {
   setup() {
     const doc = new jsPDF(
